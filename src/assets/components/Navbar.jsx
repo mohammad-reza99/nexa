@@ -27,9 +27,9 @@ const Navbar = () => {
         </div>
         <div className="md:hidden" onClick={handleClick}>
           {nav ? (
-            <IoCloseOutline className="w-5" />
+            <IoCloseOutline className="w-15" />
           ) : (
-            <IoMenuOutline className="w-5" />
+            <IoMenuOutline className="w-15" />
           )}
         </div>
       </div>
