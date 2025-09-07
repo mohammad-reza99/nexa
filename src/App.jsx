@@ -6,6 +6,7 @@ import Show from "./assets/components/Show";
 import Support from "./assets/components/Support";
 import AllInOne from "./assets/components/AllInOne";
 import Pricing from "./assets/components/Pricing";
+import Footer from "./assets/components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
       <Support />
       <AllInOne />
       <Pricing />
+      <Footer />
     </>
   );
 }
