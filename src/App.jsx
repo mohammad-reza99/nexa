@@ -1,10 +1,15 @@
 import { useState } from "react";
-import "./App.css";
+import React from "react";
+import Navbar from "./assets/componants/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return <></>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;
