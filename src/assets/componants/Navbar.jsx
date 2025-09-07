@@ -27,13 +27,13 @@ const Navbar = () => {
         </div>
         <div className="md:hidden" onClick={handleClick}>
           {nav ? (
-            <IoMenuOutline className="w-5" />
-          ) : (
             <IoCloseOutline className="w-5" />
+          ) : (
+            <IoMenuOutline className="w-5" />
           )}
         </div>
       </div>
-      <ul className="absolute bg-zinc-200 w-full px-8">
+      <ul className={!nav ? "hidden" : "absolute bg-zinc-200 w-full px-8"}>
         <li className="border-b-2 border-zinc-300 w-full">Support</li>
         <li className="border-b-2 border-zinc-300 w-full">Home</li>
         <li className="border-b-2 border-zinc-300 w-full">Platforms</li>
