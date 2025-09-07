@@ -5,6 +5,7 @@ import Hero from "./assets/components/Hero";
 import Show from "./assets/components/Show";
 import Support from "./assets/components/Support";
 import AllInOne from "./assets/components/AllInOne";
+import Pricing from "./assets/components/Pricing";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -16,6 +17,7 @@ function App() {
       <Show />
       <Support />
       <AllInOne />
+      <Pricing />
     </>
   );
 }
