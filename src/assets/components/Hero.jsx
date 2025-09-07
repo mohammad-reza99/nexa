@@ -6,7 +6,7 @@ import bgImg from "../image/cyber-bg.png";
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen bg-zinc-200 flex flex-col">
+    <div className="w-full  bg-zinc-200 flex flex-col">
       <div className="grid md:grid-cols-2 max-w-[1240px] mx-auto px-4 pt-24 relative">
         <div className="flex flex-col justify-start md:items-start w-full">
           <p className="text-2xl">Unique sequencing & Production</p>
@@ -22,7 +22,7 @@ const Hero = () => {
         </div>
 
         <div
-          className="absolute left-1/2 -translate-x-1/2 -bottom-35 z-10 
+          className="absolute left-1/2 -translate-x-1/2 -bottom-25 z-10 
                     bg-zinc-200 border border-slate-300 rounded-xl 
                     shadow-xl text-center w-[90%] md:min-w-[860px] p-6"
         >
